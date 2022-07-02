@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 70px;
-  background:  #121212;
-  border-bottom: 5px solid #696969;;
+  background:  #ffff;
+  border-bottom: 5px solid #008000;;
   display: flex;
   
 `;
@@ -29,7 +29,7 @@ export const RightSide = styled.div`
   justify-content: flex-end;
   align-items: center;
   a {
-    color: #696969;
+    color: #008000;
     font-weight: bold;
     text-decoration: none;
     margin: 0 10px;
@@ -44,8 +44,8 @@ export const RightSide = styled.div`
       height: 30px;
     }
     span {
-      background: #696969;
-      color: #eb7908;
+      background: #008000;
+      color: #008000;
       padding: 3px 7px;
       border-radius: 50%;
       position: relative;
@@ -61,7 +61,7 @@ export const RightSide = styled.div`
   .dividir::after{
       content: "|";
       margin: 0 10px;
-      color: #696969;
+      color: #008000;
   }
   button {
     background: none;
@@ -70,7 +70,7 @@ export const RightSide = styled.div`
   }
   button{
     font-size: 36px;
-    color: #696969;
+    color: #008000;
     font-weight: bold;
     &:hover {
       color: #eb7908;

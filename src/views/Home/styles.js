@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  background:  #121212;
+  background:  #ffff;
 `;
 
 export const FilterArea = styled.div`
@@ -11,7 +11,7 @@ export const FilterArea = styled.div`
   justify-content: space-around;
   margin-top: 30px;
   flex-wrap: wrap;
-  background:  #121212;
+  background:  #ffff;
 
   button {
     background: none;
@@ -22,7 +22,7 @@ export const FilterArea = styled.div`
 export const Content = styled.div`
   width: 100%;
   display: flex;
-  background:  #121212;
+  background:  #ffff;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 70px;

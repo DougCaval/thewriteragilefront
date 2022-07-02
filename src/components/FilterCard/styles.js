@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 250px;
   height: 30px;
-  background:  ${props => props.actived ? `#EE6B26` : `#696969` };
+  background:  ${props => props.actived ? `#008000` : `#696969` };
   padding: 10px;
   cursor: pointer;
   
@@ -25,6 +25,6 @@ export const Container = styled.div`
     font-size: 18px;
   }
   &:hover {
-    background: #EE6B26;
+    background: #008000;
   }
 `;

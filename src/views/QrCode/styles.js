@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background:  #121212;
+  background:  #ffff;
 `;
 
 export const Content = styled.div`
@@ -16,7 +16,7 @@ export const Content = styled.div`
   width: 50%;
 
   h1 {
-    color: #ee6b26;
+    color: #008000;
   }
   p {
     color: #20295f;
@@ -55,7 +55,7 @@ export const ValidationCode = styled.div`
   button{
       margin:10px;
       font-weight: bold;
-      background: #ee6b26;
+      background: #008000;
       border: none;
       border-radius: 10px;
       color: #FFFF;

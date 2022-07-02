@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background:  #121212;
+  background:  #fff;
 `
  
 
@@ -53,7 +53,7 @@ input{
     font-size: 16px;
     padding: 15px;
     border: none ;
-    border-bottom: 1px solid #EE6B26
+    border-bottom: 1px solid #008000
 }
 img{
     width: 20px;
@@ -132,7 +132,7 @@ margin-bottom:60px;
 button{
     width: 100%;
     border: none;
-    background: #EE6B26;
+    background: #008000;
     color: #FFF;
     font-size: 20px;
     border-radius: 20px;
