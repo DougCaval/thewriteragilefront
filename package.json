@@ -4,5 +4,23 @@
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.5.1",
     "@mui/material": "^5.5.1"
-  }
+  },
+  "name": "thewriteragilefront",
+  "description": "frontend thewriter npm start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DougCaval/thewriteragilefront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DougCaval/thewriteragilefront/issues"
+  },
+  "homepage": "https://github.com/DougCaval/thewriteragilefront#readme"
 }
