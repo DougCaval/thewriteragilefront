@@ -1,20 +1,20 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "../views/Home/Index";
-import Task from "../views/Task/Index";
-import QrCode from "../views/QrCode/Index";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../views/Home/Index.js";
+import Task from "../views/Task/Index.js";
+import QrCode from "../views/QrCode/Index.js";
 
-export default function Routes() {
+export default function AplicationRoutes() {
   return (
     <BrowserRouter>
-      <Switch>
+      <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/estorias" exact component={Task} />
         <Route path="/estorias/:id" exact component={Task} />
         <Route path="/qrcode" exact component={QrCode} />
 
 
-      </Switch>
+      </Routes>
     </BrowserRouter>
   );
 }

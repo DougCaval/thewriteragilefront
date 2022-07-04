@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as S from "./styles";
 import Qr from "qrcode.react";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 //nossos componentes
 import Header from "../../components/Header/Index";
@@ -22,7 +22,7 @@ function QrCode() {
 
   return (
     <S.Container>
-      {redirect && <Redirect to={"/"} />}
+      {redirect && <Navigate to={"/"} />}
       <Header></Header>
 
       <S.Content>

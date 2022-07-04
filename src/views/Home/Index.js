@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as S from "./styles";
 import api from "../../sevices/api";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 //nossos componentes
 import Header from "../../components/Header/Index";
@@ -43,7 +43,7 @@ function Home() {
 
   return (
     <S.Container>
-      {redirect && <Redirect to="/qrcode" />}
+      {redirect && <Navigate to="/qrcode" />}
       <Header lateCount={lateCount} clickNotification={Notification} />
       <S.FilterArea>
         <button onClick={() => setFilterActived("all")}>

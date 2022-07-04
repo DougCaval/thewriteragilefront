@@ -5,9 +5,9 @@ import Header from "../../components/Header/Index";
 import Footer from "../../components/Footer/Index";
 import TypeIcons from "../../utils/typeIcons";
 import { format } from "date-fns";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import isConnected from "../../utils/isConnected";
-import EstoriasPdf from "../../Report/Estorias/estorias";
+//import EstoriasPdf from "../../Report/Estorias/estorias";
 
 function Task({ match }) {
   const [lateCount, setLateCount] = useState();
@@ -129,7 +129,7 @@ function Task({ match }) {
 
   return (
     <S.Container>
-      {redirect && <Redirect to="/" />}
+      {redirect && <Navigate to="/" />}
       <Header lateCount={lateCount} />
 
       <S.Form>
