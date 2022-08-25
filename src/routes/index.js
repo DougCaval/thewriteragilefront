@@ -8,7 +8,7 @@ export default function AplicationRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact component={Home} />
+        <Route path="/" exact component={Home()} />
         <Route path="/estorias" exact component={Task} />
         <Route path="/estorias/:id" exact component={Task} />
         <Route path="/qrcode" exact component={QrCode} />
