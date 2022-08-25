@@ -8,5 +8,5 @@ ReactDOM.render(
     <Routes/>
     <AplicationRoutes/>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("splash")
 );
